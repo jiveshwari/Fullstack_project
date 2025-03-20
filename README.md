@@ -3,13 +3,13 @@
 **Note:** This documentation is **not 100% accurate**. I have documented what we implemented in our project to give you a **basic idea** of how things work. Some steps might vary depending on your setup, but this should serve as a solid reference.  
 
 
-## ⚡ Deploying a Node.js Express App to AWS with CodePipeline, CodeBuild, and ECS Fargate
+## Deploying a Node.js Express App to AWS with CodePipeline, CodeBuild, and ECS Fargate
 
 ## **1️ Overview**
 
 This guide outlines how to deploy a **Node.js Express app** to AWS using **Docker**, **AWS CodePipeline**, **CodeBuild**, **ECR**, **ECS (Fargate)**, and **ALB (Application Load Balancer)**. The deployment process is fully automated using GitHub as the source.
 
----
+
 
 ## **2️ Architecture Overview**
 
@@ -22,7 +22,7 @@ This guide outlines how to deploy a **Node.js Express app** to AWS using **Docke
 - **AWS Parameter Store / Secrets Manager** → Manages environment variables securely.
 - **Amazon RDS (PostgreSQL / MySQL)** → Manages the database.
 
----
+
 
 ## **3️ Prerequisites**
 
